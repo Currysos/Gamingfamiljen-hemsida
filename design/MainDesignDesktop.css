@@ -1,0 +1,70 @@
+@media (orientation: landscape) {
+    body {
+        grid-template-rows: 6em auto 6em;
+        overflow-x: hidden;
+    }
+
+    .NavbarSection {
+        min-height: 6em;
+    }
+        .NavbarSection .toggler, .hamburger, .sidenav {
+            visibility: hidden;
+        }
+        .NavbarSection .pagenav {
+            visibility: visible;
+        }
+        .NavbarSection a {
+            width: max-content;
+        }
+
+        .NavbarSection .pagenav {
+            list-style: none;
+        }
+            .NavbarSection .pagenav li, a {
+                text-decoration: none;
+                color: white;
+                font-size: 1.2em;
+                font-weight: 500;
+            }
+            .NavbarSection .pagenav li {
+                display: inline-block;
+                padding: 0 20px;
+            }
+            .NavbarSection .pagenav li a {
+                transition: all 0.3s ease 0s;
+            }
+            .NavbarSection .pagenav li a:hover {
+                color: grey;
+            }
+
+    
+    .ContentSection h1 {
+        font-size: 7vh;
+    }
+
+    .ContentText {
+        width: 65%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+        .ContentText h2 {
+            font-size: 5vh;
+            padding: 5vh;
+        }
+        .ContentText h3 {
+            font-size: 4vh;
+            padding-top: 5vh;
+        }
+        .ContentText p {
+            font-size: 3vh;
+            padding: 5vh;
+        }
+
+    .APIContainer {
+        height: 80vh;
+        display: flex;
+    }
+    #Discord {
+        height: 80vh;
+    }
+}

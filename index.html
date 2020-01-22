@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="design/MainDesignMobile.css" rel="stylesheet" />
+    <link href="design/MainDesignDesktop.css" rel="stylesheet" />
+    <link href="design/FadeIn.css" rel="stylesheet" />
+    <link href="design/Sidenav.css" rel="stylesheet" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Coding</title>
+</head>
+<body class="fade1" onload="getSeconds()">
+    <script src="scripts/TimeToNextMeeting.js"></script>
+    <script src="scripts/TypeWriter.js"></script>
+    <header class="NavbarSection">
+        <input type="checkbox" class="toggler" >
+        <div class="hamburger"><div></div></div>
+
+        <nav class="sidenav">
+            <ul>
+                <li><a href="Tabs/MeetingsIndex.html">Tider/Möten</a></li>
+                <li><a href="Tabs/History.html">Historia</a></li>
+                <li><a href="Tabs/ContactsIndex.html">Kontakter</a></li>
+            </ul>
+        </nav>
+        <nav class="pagenav">
+            <ul>
+                <li><a href="Tabs/MeetingsIndex.html">Tider/Möten</a></li>
+                <li><a href="Tabs/History.html">Historia</a></li>
+                <li><a href="Tabs/ContactsIndex.html">Kontakter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="Content">
+        <figure>
+            <img src="img/Gamingfamiljen bg.png" alt="Code background image" />
+        </figure>
+        <content class="ContentSection">
+            <h1>
+                WE 
+                <blue style="color: #3e7ee1; ">L</blue><Pink style="color: #eb0077;">O</Pink><Orange style="color: #f09700;">V</Orange>E
+                <span class="txt-type" data-wait="3000" data-words='["GAMING", "FIKA", "NINTENDO", "TECHNOLOGY", "COMPETING"]'></span>
+            </h1>
+            <article class="ContentText">
+                <h2>Gamingfamiljen</h2>
+                <div class="TimeToNextMeeting">
+                    <p>
+                        Nästa träff om<br />
+
+                        <b class="days" id="days"></b>
+                        <b class="smalltext">Dagar,</b>
+
+                        <b class="hours" id="hours"></b>
+                        <b class="smalltext">Timmar,</b>
+
+                        <b class="minutes" id="minutes"></b>
+                        <b class="smalltext">Minuter</b>
+
+                        <b>och</b>
+
+                        <b class="seconds" id="seconds"></b>
+                        <b class="smalltext">Sekunder</b>
+                    </p>
+                </div>
+                <h3>Vilka är vi?</h3>
+                <p>
+                    textu...
+                </p>
+
+                <img src="img/Gamingfamiljen bild 1.jpg" alt="Picture on funny thing I made" />
+
+                <p>Text text text... </p>
+            </article>
+        </content>
+        <content class="ContentSection">
+            <article class="ContentText">
+                <h2>Vad gör vi?</h2>
+
+                <h3>En header</h3>
+
+                <p>Text...</p>
+
+                <img src="img/Gamingfamiljen bild 2.jpg" alt="Picture on Advent of Code" />
+
+                <p>Lite fin text</p>
+            </article>
+        </content>
+    </section>
+
+    <footer class="fade1">
+        <p>
+            <a>©2019 CurrySoft Games</a>
+        </p>
+    </footer>
+</body>
+</html>
